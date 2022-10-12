@@ -1,0 +1,11 @@
+#from public ami
+aws_owner_id     = "099720109477"
+ami_name         = "ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-*"
+instance_type    = "t2.small"
+keypair          = "talent-academy-ec2"
+aws_region       = "eu-central-1"
+private_subnet_a = "private-subnet-1"
+private_subnet_b = "private-subnet-2"
+public_subnet_a = "public-subnet-1"
+public_subnet_b = "public-subnet-2"
+vpc_name         = "vpc"
